@@ -1,5 +1,3 @@
-demo.state2 = () => {};
-
 demo.state2.prototype = {
   preload: () => {},
 
