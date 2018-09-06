@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Infiite Swimmer</title>
+    <script src="../Phaser2/phaser.min.js"></script>
+    <script src="States/game.js"></script>
+  </head>
+  <body>
+
+    <!-- GAME DOCUMENTATION -->
+    <!--
+      1. There are two states, 'gameState' and 'gameOverState'.
+      2. You have your preload, create, update and render function already defined.
+      3. 'createPrimaryConsumers' & 'createPredators' that whenever they are called it creates
+      this objects outside the screen and make them move to the left at a certain velocity.
+      4. We have 'collisionPCHandler' & 'collisionPPHandler', two functions that checks for collision
+      detection every second the game is running and each one of them executes its own content.
+      5. There is a 'levelHandler' funciton that controls what happends on each level,
+      simple, if just checks on which level the current player is on every second that the game
+      is running and with simple if-else conditions we manipulate what we want to do at each level
+      6. Finally, The 'restart' function stops evrything and shows the 'gameOverState', it re-initiates
+      everything, level, score, players position, it suppose to restart everything as a new game and when
+      the restart button is click it moves back from 'gameOverState' -> 'gameState'
+     -->
+
+     <!-- THINGS THAT STILL NEED TO BE IMPLEMENTED -->
+     <!--
+       1. Sounds and audio effects for [ collision with predators, collision with consumers,
+       player dying, gameover, while in game is been play ]
+       2. Animated stickers without the with border around and all looking vertically to the left
+       3. Scroolable background from Noelle, and design of maybe logo of game, or just in general how everything looks
+       4. A restart button design by Noelle
+       5. Also, maybe 'Game Over' logo or sticker
+     -->
+
+  </body>
+</html>
